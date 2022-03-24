@@ -1,2 +1,2 @@
-# odin-recipes
- My first website
+# odin-css-exercises
+All my exercises on theodinproject
