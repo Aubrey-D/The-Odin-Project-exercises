@@ -1,2 +1,2 @@
-# odin-recipes
+# odin-css-exercises
  My first website
