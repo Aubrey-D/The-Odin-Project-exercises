@@ -1,2 +1,2 @@
 # odin-css-exercises
- My first website
+All my exercises on theodinproject
