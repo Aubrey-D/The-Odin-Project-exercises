@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-cats {
+  background-color: #1f2937;
+  padding: 20px 30px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+  margin: 5em;
+}
+
+div a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul {
+  margin-right: 6rem;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f9faf8;
+  /* margin-top: 5rem; */
+  margin-bottom: 10px;
+}
+
+.title,
+.secondary-text {
+  margin-left: 8rem;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  margin-top: 0;
+  color: #c4c8cd;
+}
+
+.main-section a {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.signup a {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  font-weight: 700;
+}
+
+.signup a:hover,
+.signup a:visited,
+.signup a::after {
+  color: #fff;
+  background-color: #7dabf5;
+}
+
+.secondary-section {
+  width: 40%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  margin-right: 7rem;
+  height: 45vh;
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 30px;
+}
+
+.cats-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.img-text {
+  width: 250px;
+  margin: 15px;
+  text-align: center;
+}
+
+.img-text img {
+  border-radius: 10px;
+}
+
+.img-text p {
+  color: #616a76;
+}
+
+/* QUOTE*/
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+
+.quote p {
+  font-size: 30px;
+  font-style: light italic;
+  color: #1f2937;
+  margin: 0px 16rem;
+}
+
+.quote h3 {
+  padding: 10px;
+  margin-left: 43rem;
+  font-size: 20px;
+}
+
+/* SIGN UP OPTION */
+.action {
+  padding: 90px;
+}
+
+.sign {
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 8rem;
+  background-color: #3882f6;
+  padding: 50px;
+}
+
+.sign h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.sign h4,
+.sign p {
+  margin-left: 2rem;
+}
+
+.sign p {
+  color: #d0dadc;
+  margin-top: -10px;
+}
+
+.action a {
+  color: #fff;
+  background-color: transparent;
+}
+
+.button a {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px 35px;
+  margin-left: 40rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button a:hover {
+  background-color: #fff;
+  color: #3882f6;
+}
+
+/* COPYRIGHT */
+footer {
+  background-color: #1f2937;
+  padding: 40px 50px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
